@@ -24,7 +24,7 @@ cache:
         - "~/.platformio"
 
 env:
-    - PLATFORMIO_CI_SRC=src
+    - PLATFORMIO_CI_SRC=src PLATFORMIO_BUILD_FLAGS="-DNRF52_S132"
 
 install:
     - pip install -U platformio
@@ -33,7 +33,8 @@ install:
     # Libraries from PlatformIO Library Registry:
     # https://github.com/adafruit/Adafruit_SHT31
     # https://github.com/sstaub/Ticker
-    - platformio lib -g install 479 1586
+    # https://github.com/sandeepmistry/arduino-BLEPeripheral
+    - platformio lib -g install 479 1586 259
 
 script:
     - platformio ci --board=ublox_evk_nina_b1
