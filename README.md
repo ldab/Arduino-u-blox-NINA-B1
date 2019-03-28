@@ -47,7 +47,7 @@ Timer functionas are implemented intead of `delay()` and the PINs have been re-m
 
 You can download the sample Bluetooth low energy app - BLE App straight from u-blox wesite: [https://www.u-blox.com/en/product/bluetooth-ios-and-android-app](https://www.u-blox.com/en/product/bluetooth-ios-and-android-app)
 
-![App example](./extras/Screenshot_20190328-130832_u-blox BLE.jpg)
+![App example](https://raw.githubusercontent.com/ldab/Arduino-u-blox-NINA-B1/master/extras/Screenshot_20190328-130832_u-blox%20BLE.jpg)
 
 ## fatal error: ble_gatts.h: No such file or directory
 
